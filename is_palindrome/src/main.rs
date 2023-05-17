@@ -10,7 +10,7 @@ fn is_palindrome(x: i32) -> bool {
         return true;
     }
 
-    let is_signed = num_string.contains('-') || num_string.contains('+');
+    let is_signed: bool = num_string.contains('-') || num_string.contains('+');
     if is_signed {
         return false;
     }
